@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addCompanion</class>
+ <widget class="QWidget" name="addCompanion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>373</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(25,43,63)</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font-size: 14;
+color : white;</string>
+     </property>
+     <property name="text">
+      <string>&lt;span style=&quot;white-space: pre-wrap; font-weight:600; color: white;&quot;&gt;Имя&lt;/span&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>&lt;span style=&quot;white-space: pre-wrap; font-weight:600; color: white;&quot;&gt;Отчество&lt;/span&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLabel" name="label_2">
+     <property name="styleSheet">
+      <string notr="true">font-size: 14;
+color : white;</string>
+     </property>
+     <property name="text">
+      <string>&lt;span style=&quot;white-space: pre-wrap; font-weight:600; color: white;&quot;&gt;Фамилия&lt;/span&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>&lt;span style=&quot;white-space: pre-wrap; font-weight:600; color: white;&quot;&gt;Номер паспорта&lt;/span&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="middle_name">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="first_name">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLineEdit" name="last_name">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);</string>
+       </property>
+       <property name="text">
+        <string>Готово</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="7" column="3">
+    <widget class="QLineEdit" name="passport">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <spacer name="verticalSpacer_4">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1">
+    <spacer name="verticalSpacer_3">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="0" column="1" colspan="3">
+    <widget class="QLabel" name="label_5">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color: white&quot;&gt;Добавление сопровождающего&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <spacer name="verticalSpacer_5">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>first_name</tabstop>
+  <tabstop>last_name</tabstop>
+  <tabstop>middle_name</tabstop>
+  <tabstop>passport</tabstop>
+  <tabstop>pushButton</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

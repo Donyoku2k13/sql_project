@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="actionchoosereception.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="addcompanion.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="addnewvisitor.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="bill.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="changeschedule.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="changescheduleworker.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="chooseactionadmin.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="chooseworker.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="deletevisitor.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="getinfo.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="popupmenu.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="report.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+    <ClCompile Include="workerfire.cpp">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bill.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="addcompanion.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="addnewvisitor.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="actionchoosereception.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="changeschedule.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="changescheduleworker.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="chooseactionadmin.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="chooseworker.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="deletevisitor.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="getinfo.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="popupmenu.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="report.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+    <ClInclude Include="workerfire.h">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="actionchoosereception.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="addcompanion.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="addnewvisitor.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="bill.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="changeschedule.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="changescheduleworker.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="chooseactionadmin.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="chooseworker.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="create_db_script.sql">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="deletevisitor.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="getinfo.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="hotel.pro">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="mainwindow.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="report.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+    <None Include="workerfire.ui">
+      <Filter>Файлы заголовков\Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>

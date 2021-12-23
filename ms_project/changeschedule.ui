@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>changeSchedule</class>
+ <widget class="QWidget" name="changeSchedule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>742</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(25,43,63)
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#ffffff;&quot;&gt;Изменение расписания уборок&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView">
+     <property name="styleSheet">
+      <string notr="true">QTableView {
+background-color: rgb(33, 57, 84);
+color: rgb(255, 255, 255);
+selection-background-color: rgb(65, 116, 167);
+selection-color: rgb(25, 44, 64);
+border-color: rgb(25,43,63);
+}
+QTableCornerButton::section {
+    background: rgb(33, 57, 84);
+    border: 2px outset rgb(33, 57, 84);
+}
+QHeaderView::section {
+ background-color: rgb(25,43,63);
+color: rgb(255, 255, 255);
+}</string>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::DoubleClicked</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
